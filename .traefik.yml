@@ -1,0 +1,6 @@
+displayName: "Member Path Limiter"
+type: middleware
+import: "github.com/bahaeddinoz/traefik-member-path-limiter"
+summary: "Combines JWT member ID with request path for rate limiting"
+testData:
+  outputHeader: "X-Rate-Limit-Key"
